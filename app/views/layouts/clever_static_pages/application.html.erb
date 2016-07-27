@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clever static pages</title>
+  <%= stylesheet_link_tag    "clever_static_pages/application", media: "all" %>
+  <%= javascript_include_tag "clever_static_pages/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
